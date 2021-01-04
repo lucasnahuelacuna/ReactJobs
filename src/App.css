@@ -1,0 +1,62 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: left;
+}
+
+th, td {
+  padding: 7px;
+  border-bottom: 1px solid #ddd;
+  width: 33.33%;
+}
+
+button {
+  background: #1B4EE7;
+  color: #fff;
+  border: 1px solid #1B4EE7;
+  padding: 8px 12px;
+  border-radius: 3px;
+  outline: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px 0px 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 1px solid #1B4EE7;
+  box-shadow: 0 0 0 2px rgba(29, 81, 239, 0.2);
+}
+
+input[type="button"] {
+  background: #1B4EE7;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #1B4EE7;
+  padding: 8px 12px;
+  border-radius: 3px;
+  outline: none;
+}
